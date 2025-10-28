@@ -1,0 +1,36 @@
+{
+  "name": "contract-caller-dapp",
+  "version": "1.0.0",
+  "description": "Blockchain Smart Contract Function Caller DApp",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "clear": "rm -rf node_modules package-lock.json .next"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@rainbow-me/rainbowkit": "^2.2.9",
+    "@tanstack/react-query": "^5.90.5",
+    "ethers": "^6.15.0",
+    "next": "15.1.6",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "solc": "^0.8.30",
+    "viem": "^2.38.4",
+    "wagmi": "^2.18.2",
+    "zustand": "^5.0.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22",
+    "@types/react": "^19",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.9.3"
+  }
+}

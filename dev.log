@@ -1,0 +1,31 @@
+
+> contract-caller-dapp@1.0.0 dev
+> next dev
+
+ ⚠ Port 3000 is in use by process 10152, using available port 3001 instead.
+   ▲ Next.js 16.0.0 (Turbopack)
+   - Local:        http://localhost:3001
+   - Network:      http://192.168.0.183:3001
+
+ ✓ Starting...
+
+   We detected TypeScript in your project and reconfigured your tsconfig.json file for you.
+   The following suggested values were added to your tsconfig.json. These values can be changed to fit your project's needs:
+
+   	- include was updated to add '.next/dev/types/**/*.ts'
+
+   The following mandatory changes were made to your tsconfig.json:
+
+   	- jsx was set to react-jsx (next.js uses the React automatic runtime)
+
+ ✓ Ready in 466ms
+Error: Turbopack build failed with 1 errors:
+./app
+Error: Next.js inferred your workspace root, but it may not be correct.
+    We couldn't find the Next.js package (next/package.json) from the project directory: /Users/daulathussain/Documents/Web3-Contract Caller/contract-caller-dapp/app
+     To fix this, set turbopack.root in your Next.js config, or ensure the Next.js package is resolvable from this directory.
+    Note: For security and performance reasons, files outside of the project directory will not be compiled.
+    See https://nextjs.org/docs/app/api-reference/config/next-config-js/turbopack#root-directory for more information.
+
+    at ignore-listed frames
+[?25h
